@@ -2,6 +2,11 @@
   font-family: helvetica_neue;
   src: url(../fonts/helvetica_neue_ultra_light.ttf);
 }
+@font-face {
+  font-family: FontAwesome;
+  src: url(../fonts/fa-regular-400.woff2);
+}
+
 
 /*CSS Reset begin ###########################################################*/
 html, body, div, span, applet, object, iframe,
@@ -136,7 +141,8 @@ a.bannerBtnLink{
 	cursor: pointer;
 }
 a.bannerBtnLink:hover{
-	color: black;
+/*	color: black;*/
+	background-color: #8d0300;
 }
 main{
 	margin: 159px auto 0;
@@ -241,5 +247,23 @@ a.footer{
 	margin-bottom: 10px;
 }
 a.footer:hover{
+	color: white;
+}
+a.FontAwesome{
+	display:inline-block;
+	width:45px;
+	height:45px;
+	border-radius: 22px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 14px 0 0 0;
+	box-sizing: border-box;
+	font-face:FontAwesome;
+}
+a.FontAwesome:hover{
 	color: red;
+	background-color: white;
 }
