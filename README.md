@@ -1,2 +1,2 @@
-# ExotiCars HTML, CSS
-Webpage Technology used HTML and CSS
+# ExotiCars HTML, CSS webpage
+Technology used HTML and CSS
